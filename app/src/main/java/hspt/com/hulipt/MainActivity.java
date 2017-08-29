@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
         WebView  webView = (WebView)findViewById(R.id.webview);
         WebSettings settings = webView.getSettings();
         settings.setJavaScriptEnabled(true);
-
+        // 修改
         webView.loadUrl("http://192.168.1.174:8090/main.jsp");
         webView.setWebViewClient(new WebViewClient(){
 
